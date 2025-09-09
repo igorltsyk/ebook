@@ -16,13 +16,29 @@
     <!-- Favicon (ícone da aba) -->
     <link rel="icon" href="https://placehold.co/32x32/1a202c/ffffff?text=IA" type="image/png">
 
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1868088870734091');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1868088870734091&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+
     <style>
-        /* Estilo personalizado para usar a fonte Inter */
         body {
             font-family: 'Inter', sans-serif;
             scroll-behavior: smooth;
         }
-        /* Efeito de gradiente animado para os botões */
         .animated-gradient-btn {
             background-size: 200% auto;
             transition: background-position 0.5s ease-in-out;
@@ -52,23 +68,19 @@
 
     <main>
         <!-- Bloco 2: Conectando com a Dor -->
-        <section class="py-16 bg-gray-800">
+        <section class="py-16 bg-gray-900">
             <div class="container mx-auto px-6 text-center">
                 <h2 class="text-3xl font-bold mb-8">Você se identifica com alguma destas situações?</h2>
                 <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
-                    <!-- Card de Dor 1 -->
                     <div class="bg-gray-800 p-6 rounded-lg shadow-md border border-gray-700">
                         <p>Sonha em ter uma <strong class="text-emerald-400">renda extra</strong> vinda da internet, mas se sente perdido sobre por onde começar?</p>
                     </div>
-                    <!-- Card de Dor 2 -->
                     <div class="bg-gray-800 p-6 rounded-lg shadow-md border border-gray-700">
                         <p>Acha que <strong class="text-emerald-400">criar um produto digital</strong> do zero é muito complicado e demorado?</p>
                     </div>
-                    <!-- Card de Dor 3 -->
                     <div class="bg-gray-800 p-6 rounded-lg shadow-md border border-gray-700">
                         <p>Já ouviu falar em <strong class="text-emerald-400">Inteligência Artificial</strong>, mas não faz ideia de como usá-la para ganhar dinheiro?</p>
                     </div>
-                    <!-- Card de Dor 4 -->
                     <div class="bg-gray-800 p-6 rounded-lg shadow-md border border-gray-700">
                         <p>Sente que está <strong class="text-emerald-400">preso em um ciclo</strong>, trabalhando muito sem realizar seus sonhos?</p>
                     </div>
@@ -80,7 +92,8 @@
         <section class="py-16 bg-gray-800">
             <div class="container mx-auto px-6 flex flex-col md:flex-row items-center gap-10">
                 <div class="md:w-1/2">
-                    <img src="ia.jpg" alt="Capa do Ebook Renda Passiva com IA" class="rounded-lg shadow-2xl mx-auto transform hover:scale-105 transition-transform duration-500">
+                   
+                    <img src="ia" alt="Capa do Ebook Renda Passiva com IA" class="rounded-lg shadow-2xl mx-auto transform hover:scale-105 transition-transform duration-500">
                 </div>
                 <div class="md:w-1/2 text-center md:text-left">
                     <h2 class="text-3xl md:text-4xl font-bold mb-4">Apresentando o Ebook:<br><span class="text-emerald-400">Renda Passiva com IA</span></h2>
@@ -99,75 +112,49 @@
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Dentro deste Guia, Você Vai Descobrir:</h2>
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-                    <!-- Benefício 1 -->
                     <div class="flex items-start space-x-4">
                         <div class="flex-shrink-0 bg-emerald-500 text-white rounded-full h-10 w-10 flex items-center justify-center font-bold">✓</div>
-                        <div>
-                            <h3 class="font-bold text-xl mb-1">Criação Expressa</h3>
-                            <p class="text-gray-400">Como usar ferramentas de IA (muitas gratuitas) para escrever um ebook de alta qualidade em um fim de semana.</p>
-                        </div>
+                        <div><h3 class="font-bold text-xl mb-1">Criação Expressa</h3><p class="text-gray-400">Como usar ferramentas de IA para escrever um ebook de alta qualidade em um fim de semana.</p></div>
                     </div>
-                    <!-- Benefício 2 -->
                     <div class="flex items-start space-x-4">
-                         <div class="flex-shrink-0 bg-emerald-500 text-white rounded-full h-10 w-10 flex items-center justify-center font-bold">✓</div>
-                        <div>
-                            <h3 class="font-bold text-xl mb-1">Nichos Lucrativos</h3>
-                            <p class="text-gray-400">Aprenda a encontrar tópicos que os clientes da Amazon estão desesperados para comprar.</p>
-                        </div>
+                        <div class="flex-shrink-0 bg-emerald-500 text-white rounded-full h-10 w-10 flex items-center justify-center font-bold">✓</div>
+                        <div><h3 class="font-bold text-xl mb-1">Nichos Lucrativos</h3><p class="text-gray-400">Aprenda a encontrar tópicos que os clientes da Amazon estão desesperados para comprar.</p></div>
                     </div>
-                    <!-- Benefício 3 -->
                     <div class="flex items-start space-x-4">
-                         <div class="flex-shrink-0 bg-emerald-500 text-white rounded-full h-10 w-10 flex items-center justify-center font-bold">✓</div>
-                        <div>
-                            <h3 class="font-bold text-xl mb-1">Capas que Vendem</h3>
-                            <p class="text-gray-400">O passo a passo para criar uma capa profissional em minutos, mesmo sem ser designer.</p>
-                        </div>
+                        <div class="flex-shrink-0 bg-emerald-500 text-white rounded-full h-10 w-10 flex items-center justify-center font-bold">✓</div>
+                        <div><h3 class="font-bold text-xl mb-1">Capas que Vendem</h3><p class="text-gray-400">O passo a passo para criar uma capa profissional em minutos, mesmo sem ser designer.</p></div>
                     </div>
-                    <!-- Benefício 4 -->
                     <div class="flex items-start space-x-4">
-                         <div class="flex-shrink-0 bg-emerald-500 text-white rounded-full h-10 w-10 flex items-center justify-center font-bold">✓</div>
-                        <div>
-                            <h3 class="font-bold text-xl mb-1">Publicação sem Mistérios</h3>
-                            <p class="text-gray-400">Como formatar e publicar seu ebook na Amazon KDP de forma rápida e sem dores de cabeça.</p>
-                        </div>
+                        <div class="flex-shrink-0 bg-emerald-500 text-white rounded-full h-10 w-10 flex items-center justify-center font-bold">✓</div>
+                        <div><h3 class="font-bold text-xl mb-1">Publicação sem Mistérios</h3><p class="text-gray-400">Como formatar e publicar seu ebook na Amazon KDP de forma rápida e sem dores de cabeça.</p></div>
                     </div>
-                    <!-- Benefício 5 -->
                     <div class="flex items-start space-x-4">
-                         <div class="flex-shrink-0 bg-emerald-500 text-white rounded-full h-10 w-10 flex items-center justify-center font-bold">✓</div>
-                        <div>
-                            <h3 class="font-bold text-xl mb-1">Estratégia de Lançamento</h3>
-                            <p class="text-gray-400">Aprenda a definir preços e usar palavras-chave que transformam visitantes em compradores.</p>
-                        </div>
+                        <div class="flex-shrink-0 bg-emerald-500 text-white rounded-full h-10 w-10 flex items-center justify-center font-bold">✓</div>
+                        <div><h3 class="font-bold text-xl mb-1">Estratégia de Lançamento</h3><p class="text-gray-400">Aprenda a definir preços e usar palavras-chave que transformam visitantes em compradores.</p></div>
                     </div>
-                    <!-- Benefício 6 -->
                     <div class="flex items-start space-x-4">
-                         <div class="flex-shrink-0 bg-emerald-500 text-white rounded-full h-10 w-10 flex items-center justify-center font-bold">✓</div>
-                        <div>
-                            <h3 class="font-bold text-xl mb-1">Automação e Escala</h3>
-                            <p class="text-gray-400">Entenda como criar um verdadeiro sistema de renda passiva que trabalha por você 24/7.</p>
-                        </div>
+                        <div class="flex-shrink-0 bg-emerald-500 text-white rounded-full h-10 w-10 flex items-center justify-center font-bold">✓</div>
+                        <div><h3 class="font-bold text-xl mb-1">Automação e Escala</h3><p class="text-gray-400">Entenda como criar um verdadeiro sistema de renda passiva que trabalha por você 24/7.</p></div>
                     </div>
                 </div>
-                 <div class="text-center mt-12">
-                     <a href="#seu-link-da-amazon" class="inline-block bg-gradient-to-r from-emerald-500 to-teal-500 text-white font-bold text-lg py-3 px-8 rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300 animated-gradient-btn">
+                <div class="text-center mt-12">
+                    <a href="#seu-link-da-amazon" class="inline-block bg-gradient-to-r from-emerald-500 to-teal-500 text-white font-bold text-lg py-3 px-8 rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300 animated-gradient-btn">
                         DESBLOQUEAR MEU GUIA NA AMAZON
                     </a>
                 </div>
             </div>
         </section>
-
+    
 
         <!-- Bloco 6: Depoimentos -->
         <section class="py-16 bg-gray-900">
              <div class="container mx-auto px-6">
                 <h2 class="text-3xl font-bold text-center mb-10">Veja o que os primeiros leitores estão dizendo:</h2>
                 <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-                    <!-- Depoimento 1 -->
                     <div class="bg-gray-800 p-6 rounded-lg border-l-4 border-emerald-500">
                         <p class="italic text-gray-300">"Eu nunca me considerei um escritor, mas com este guia, publiquei meu primeiro ebook em uma semana! Já fiz minhas primeiras vendas. Incrível!"</p>
                         <p class="text-right font-bold mt-4">- João P., São Paulo</p>
                     </div>
-                     <!-- Depoimento 2 -->
                     <div class="bg-gray-800 p-6 rounded-lg border-l-4 border-emerald-500">
                         <p class="italic text-gray-300">"O guia é super direto ao ponto. A parte sobre encontrar nichos com IA abriu minha mente. Valeu cada centavo do investimento."</p>
                         <p class="text-right font-bold mt-4">- Maria Clara S., Belo Horizonte</p>
@@ -179,7 +166,8 @@
         <!-- Bloco 7: Chamada Final -->
         <section class="py-20 bg-gray-800">
              <div class="container mx-auto px-6 text-center">
-                <img src="img2.png" alt="Capa do Ebook Renda Passiva com IA" class="rounded-lg shadow-2xl mx-auto mb-8 max-w-sm">
+               
+                <img src="img2" alt="Capa do Ebook Renda Passiva com IA" class="rounded-lg shadow-2xl mx-auto mb-8 max-w-sm">
                 <h2 class="text-3xl md:text-4xl font-black mb-4">Chegou a sua Hora de Criar sua Fonte de Renda Passiva.</h2>
                 <p class="text-gray-300 text-lg max-w-2xl mx-auto mb-8">
                     Deixe a Inteligência Artificial fazer o trabalho pesado e comece hoje a construir o seu futuro. Siga um método testado e comprovado que já está funcionando.
@@ -190,46 +178,28 @@
                  <p class="text-sm text-gray-400 mt-3">*Clique para comprar com segurança na Amazon.*</p>
             </div>
         </section>
-
     </main>
 
     <!-- Rodapé -->
     <footer class="bg-gray-900 py-6">
         <div class="container mx-auto px-6 text-center text-gray-500 text-sm">
-            <p>&copy; 2025 ILWebs. Todos os direitos reservados.</p>
+            <p>&copy; 2024 ILWebs. Todos os direitos reservados.</p>
             <p class="mt-2">Este site não é afiliado à Amazon ou Meta. É um recurso independente para promover um produto vendido na Amazon.</p>
         </div>
     </footer>
     
-    
     <script>
-        // Função para instalar o Pixel da Meta
-        function initFacebookPixel() {
-            
-            !function(f,b,e,v,n,t,s)
-            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t,s)}(window, document,'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '1431150004665584'); // 
-            fbq('track', 'PageView');
-            
-            console.log("Pixel da Meta seria inicializado aqui.");
-        }
-
-        // Função para rastrear o clique e redirecionar
+        // Função para rastrear o clique no botão e redirecionar para a Amazon
         function trackAndRedirect(event) {
             event.preventDefault(); // Impede o link de abrir imediatamente
             
-            const amazonLink = 'https://www.amazon.com.br/seu-link-aqui'; // <-- SUBSTITUA PELO LINK REAL DO SEU EBOOK
+            // IMPORTANTE: Substitua a linha abaixo pelo seu link real da Amazon
+            const amazonLink = 'https://www.amazon.com.br/seu-link-aqui';
             
-            // Tenta rastrear o evento 'Lead' ou 'InitiateCheckout' com o Pixel
+            // Tenta rastrear o evento 'Lead' com o Pixel
             if (typeof fbq !== 'undefined') {
-                fbq('track', 'Lead'); // Rastreia o clique como um cliente em potencial
-                console.log("Evento 'Lead' do Pixel rastreado.");
+                fbq('track', 'Lead'); // Rastreia o clique como um cliente em potencial forte
+                console.log("Evento 'Lead' do Pixel rastreado com sucesso.");
             } else {
                 console.log("Pixel não carregado, pulando o rastreamento.");
             }
@@ -237,22 +207,19 @@
             // Redireciona para a Amazon após um pequeno atraso para garantir o rastreamento
             setTimeout(() => {
                 window.location.href = amazonLink;
-            }, 300); // 300 milissegundos
+            }, 300);
         }
 
-        // Inicia o Pixel quando a página carrega
-        window.onload = function() {
-            initFacebookPixel();
-
-            // Adiciona o evento de clique a todos os botões que levam para a Amazon
+        // Adiciona o evento de clique a todos os botões que levam para a Amazon
+        // Isso é executado assim que a página termina de carregar
+        window.addEventListener('load', function() {
             const amazonButtons = document.querySelectorAll('a[href="#seu-link-da-amazon"]');
             amazonButtons.forEach(button => {
                 button.addEventListener('click', trackAndRedirect);
             });
-        };
+        });
     </script>
 
 </body>
 </html>
-
 
